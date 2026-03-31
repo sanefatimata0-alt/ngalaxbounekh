@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ngalax National</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="titre">
+            <p class="message">Formulaire de demande de</p>
+            <h1>NGALAKH</h1>
+       </div>
+        <div class="contact-container">
+            <form class="contact-form">
+                <label for="nomprenom"></label>
+                <input type="text" placeholder="Votre nom complet" required>
+                <label for="age"></label>
+                <input type="number" placeholder="Votre âge" required>
+                <label for="sexe"></label>
+                <select name="sexe" id="sexe" required>
+                    <option value="">Sélectionnez votre sexe</option>
+                    <option value="homme">Homme</option>
+                    <option value="femme">Femme</option>
+                </select>
+                <label for="adresse"></label>
+                <input type="text" placeholder="Votre adresse">
+                <label for="montant"></label>
+                <input type="number" placeholder="Montant du Ngalakh en litre" required>
+                <textarea placeholder="Raison de votre demande de ngalakh" rows="5" required></textarea>
+                <button type="submit">Soumettre</button>
+                <br>
+                <button type="reset">Réinitialiser</button>
+            </form>
+        </div>
+</body>
+</html>
